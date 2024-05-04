@@ -1,9 +1,9 @@
-const logoNetflix = document.querySelector('#logo-netflix');
-const logoMwb = document.querySelector('#logo-mwb');
-const logoYt = document.querySelector('#logo-yt');
-const logoYtMusic = document.querySelector('#logo-yt-music');
-const logoFs = document.querySelector('#logo-fs');
-const logoPhind = document.querySelector('#logo-phind');
+const logoNetflix = document.querySelector('#netflix');
+const logoMwb = document.querySelector('#mwb');
+const logoYt = document.querySelector('#yt');
+const logoYtMusic = document.querySelector('#yt-music');
+const logoFs = document.querySelector('#fs');
+const logoPhind = document.querySelector('#phind');
 
 function openInNewTab(url) {
     window.open(url, '_blank', 'noopener,noreferrer');
