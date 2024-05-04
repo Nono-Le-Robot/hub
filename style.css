@@ -1,0 +1,61 @@
+#root{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(34, 34, 46);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#media{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.card-media{
+    background-color: rgb(226, 229, 248);
+    width: 350px;
+    height: 250px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-30px);
+        transition: 0.4s;
+    }
+}
+
+#logo-netflix{
+    width: 200px;
+    background-color: rgb(226, 229, 248);
+
+}
+
+#logo-mwb{
+    width:160px;
+}
+
+#logo-yt{
+    width:200px;
+}
+
+#logo-yt-music{
+    width:260px;
+}
+
+#logo-fs{
+    width:260px;
+    border-radius: 1rem;
+}
+
+#logo-phind{
+    width:180px;
+    border-radius: 1rem;
+}
