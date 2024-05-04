@@ -3,6 +3,7 @@ const logoMwb = document.querySelector('#logo-mwb');
 const logoYt = document.querySelector('#logo-yt');
 const logoYtMusic = document.querySelector('#logo-yt-music');
 const logoFs = document.querySelector('#logo-fs');
+const logoPhind = document.querySelector('#logo-phind');
 
 function openInNewTab(url) {
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -26,4 +27,8 @@ logoYtMusic.addEventListener("click", () => {
 
 logoFs.addEventListener("click", () => {
     openInNewTab('https://fsurl.site'); 
+});
+
+logoPhind.addEventListener("click", () => {
+    openInNewTab('https://phind.com'); 
 });
