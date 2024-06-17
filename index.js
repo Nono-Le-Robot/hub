@@ -27,7 +27,7 @@ logoYtMusic.addEventListener("click", () => {
 });
 
 logoSpotify.addEventListener("click", () => {
-    openInNewTab("https://music.youtube.com");
+    openInNewTab("https://open.spotify.com/intl-fr");
 });
 
 logoFs.addEventListener("click", () => {
