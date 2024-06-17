@@ -1,34 +1,34 @@
-const logoNetflix = document.querySelector('#netflix');
-const logoMwb = document.querySelector('#mwb');
-const logoYt = document.querySelector('#yt');
-const logoYtMusic = document.querySelector('#yt-music');
-const logoFs = document.querySelector('#fs');
-const logoPhind = document.querySelector('#phind');
+const logoNetflix = document.querySelector("#netflix");
+const logoGpt = document.querySelector("#gpt");
+const logoYt = document.querySelector("#yt");
+const logoYtMusic = document.querySelector("#yt-music");
+const logoFs = document.querySelector("#fs");
+const logoPrime = document.querySelector("#prime");
 
 function openInNewTab(url) {
-    window.open(url, '_blank', 'noopener,noreferrer');
+    window.open(url, "_blank", "noopener,noreferrer");
 }
 
 logoNetflix.addEventListener("click", () => {
-    openInNewTab('https://www.netflix.com'); 
+    openInNewTab("https://www.netflix.com");
 });
 
-logoMwb.addEventListener("click", () => {
-    openInNewTab('https://my-watching-base.sanren.fr'); 
+logoPrime.addEventListener("click", () => {
+    openInNewTab("https://www.primevideo.com/");
 });
 
 logoYt.addEventListener("click", () => {
-    openInNewTab('https://www.youtube.com'); 
+    openInNewTab("https://www.youtube.com");
 });
 
 logoYtMusic.addEventListener("click", () => {
-    openInNewTab('https://music.youtube.com'); 
+    openInNewTab("https://music.youtube.com");
 });
 
 logoFs.addEventListener("click", () => {
-    openInNewTab('https://fsurl.site'); 
+    openInNewTab("https://fsurl.site");
 });
 
-logoPhind.addEventListener("click", () => {
-    openInNewTab('https://phind.com'); 
+logoGpt.addEventListener("click", () => {
+    openInNewTab("https://chatgpt.com/");
 });
