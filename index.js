@@ -2,6 +2,7 @@ const logoNetflix = document.querySelector("#netflix");
 const logoGpt = document.querySelector("#gpt");
 const logoYt = document.querySelector("#yt");
 const logoYtMusic = document.querySelector("#yt-music");
+const logoSpotify = document.querySelector("#spotify");
 const logoFs = document.querySelector("#fs");
 const logoPrime = document.querySelector("#prime");
 
@@ -25,10 +26,14 @@ logoYtMusic.addEventListener("click", () => {
     openInNewTab("https://music.youtube.com");
 });
 
+logoSpotify.addEventListener("click", () => {
+    openInNewTab("https://music.youtube.com");
+});
+
 logoFs.addEventListener("click", () => {
     openInNewTab("https://fsurl.site");
 });
 
-logoGpt.addEventListener("click", () => {
-    openInNewTab("https://chatgpt.com/");
-});
+// logoGpt.addEventListener("click", () => {
+//     openInNewTab("https://chatgpt.com/");
+// });
